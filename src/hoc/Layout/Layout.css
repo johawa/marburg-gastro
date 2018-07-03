@@ -1,0 +1,29 @@
+.Site-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.Sidedrawer {
+    width: 408px;
+    flex-shrink: 0;
+    height: 100vh;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main-container {
+    flex: 1;
+    height: 100vh;    
+    display: flex;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    background: repeating-linear-gradient(45deg, #3a3a3a 0, #3a3a3a 5%, #333333 0, #333333 50%) 0/20px 20px;
+    border: 2px solid blue;
+}
